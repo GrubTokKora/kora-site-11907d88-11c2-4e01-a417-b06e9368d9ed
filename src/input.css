@@ -1,14 +1,54 @@
+/* Source for assets/styles.css — Kora backend recompiles this file. */
 @import "tailwindcss";
 @source "../**/*.html";
-@source "../assets/**/*.js";
+@source "../js/**/*.js";
+
+/* KORA_BRAND_THEME_START */
 @theme {
-  --color-primary: #0055FF;
-  --color-secondary: #57290c;
-  --color-accent: #b8dde3;
-  --font-heading: "Playfair Display", serif;
-  --font-body: "Inter", sans-serif;
+  --color-brand-primary: #47704c;
+  --color-brand-primary-dark: #35563a;
+  --color-brand-primary-foreground: #faf7f1;
+  --color-brand-secondary: #57290c;
+  --color-brand-secondary-foreground: #faf7f1;
+  --color-brand-accent: #b8dde3;
+  --color-brand-accent-foreground: #1e2a21;
+  --color-brand-dark: #1e2a21;
+  --color-brand-ink: #1e2a21;
+  --color-brand-muted: #7c857e;
+  --color-brand-soft: #f1ece1;
+  --color-brand-border: rgba(71, 112, 76, 0.28);
+  --font-brand: "Libre Caslon Display", "Libre Caslon Text", Georgia, serif;
+  --font-heading: "Libre Caslon Display", "Libre Caslon Text", Georgia, serif;
+  --font-body: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-nav: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --shadow-plate: 0 1px 2px #1e2a210a, 0 18px 44px -22px #1e2a2147;
+  --shadow-lift: 0 2px 4px #1e2a210d, 0 30px 60px -26px #1e2a2157;
 }
+/* KORA_BRAND_THEME_END */
+
+/* KORA_BRAND_BASE_START */
 @layer base {
-  body { font-family: var(--font-body); }
-  h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+  :root {
+    --header-h: 83px;
+    --site-chrome-h: 83px;
+    --color-brand-primary: #47704c;
+    --color-brand-primary-dark: #35563a;
+    --color-brand-primary-foreground: #faf7f1;
+    --color-brand-secondary: #57290c;
+    --color-brand-secondary-foreground: #faf7f1;
+    --color-brand-accent: #b8dde3;
+    --color-brand-accent-foreground: #1e2a21;
+    --color-brand-dark: #1e2a21;
+    --color-brand-ink: #1e2a21;
+    --color-brand-muted: #7c857e;
+    --color-brand-soft: #f1ece1;
+    --color-brand-border: rgba(71, 112, 76, 0.28);
+    --font-brand: "Libre Caslon Display", "Libre Caslon Text", Georgia, serif;
+    --font-heading: "Libre Caslon Display", "Libre Caslon Text", Georgia, serif;
+    --font-body: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-nav: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    --shadow-plate: 0 1px 2px #1e2a210a, 0 18px 44px -22px #1e2a2147;
+    --shadow-lift: 0 2px 4px #1e2a210d, 0 30px 60px -26px #1e2a2157;
+  }
 }
+/* KORA_BRAND_BASE_END */
