@@ -483,10 +483,13 @@ img { max-width: 100%; height: auto; display: block; }
 .hero { position: relative; background: var(--ink); isolation: isolate; }
 .hero__stage {
   position: relative;
-  min-height: min(94svh, 54rem);
+  min-height: 100svh;
   display: grid;
   align-items: end;
   overflow: hidden;
+}
+@media (min-width: 52rem) {
+  .hero__stage { min-height: min(98svh, 58rem); }
 }
 .hero--page .hero__stage { min-height: min(72svh, 40rem); }
 
