@@ -538,24 +538,16 @@ img { max-width: 100%; height: auto; display: block; }
 .hero__panel .lede { color: color-mix(in oklab, var(--cream) 88%, transparent); margin-top: 1.5rem; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-top: 2.3rem; }
 
-/* Estate rail — the four facts a planner checks before anything else. */
-.estate-rail {
+.hero__body > .hero__dots {
   position: relative;
   z-index: 2;
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 2.4rem;
-  padding-block: 1.15rem;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1.15rem;
+  padding-top: 1.15rem;
   border-top: 1px solid color-mix(in oklab, var(--cream) 26%, transparent);
-  font-size: var(--step--1);
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: color-mix(in oklab, var(--cream) 78%, transparent);
-  font-family: "Libre Caslon Display", Georgia, serif;
 }
-
-.hero__dots { display: flex; gap: 0.5rem; flex-basis: 100%; }
-@media (min-width: 52rem) { .hero__dots { flex-basis: auto; margin-left: auto; } }
 .hero__dot {
   width: 30px;
   height: 2px;
