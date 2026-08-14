@@ -333,11 +333,9 @@ img { max-width: 100%; height: auto; display: block; }
 @media (min-width: 74rem) {
   .site-header__inner { gap: 1.5rem; min-height: 5.2rem; }
 }
-/* Below the desktop breakpoint the logo, the CTA and the menu button have to
-   share a narrow bar — tighten the CTA rather than dropping it. */
+/* Below the desktop breakpoint the logo and menu button share a narrow bar. */
 @media (max-width: 73.99rem) {
-  .site-header__inner > .btn { padding: 0.7rem 0.95rem; letter-spacing: 0.03em; }
-  .site-header__inner > .btn .btn__arrow { display: none; }
+  .site-header__inner > .btn { display: none; }
 }
 .site-header__logo { flex: none; display: block; margin-right: auto; }
 .site-header__logo img { width: clamp(104px, 13vw, 168px); transition: opacity 0.35s var(--ease); }
