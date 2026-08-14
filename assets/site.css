@@ -530,15 +530,20 @@ img { max-width: 100%; height: auto; display: block; }
 .hero__panel .hero__title {
   font-family: "Libre Caslon Display", "Libre Caslon Text", Georgia, serif;
   font-weight: 400;
-  font-size: var(--step-5);
-  line-height: 1.06;
-  letter-spacing: -0.017em;
+  font-size: var(--step-4);
+  line-height: 1.08;
+  letter-spacing: -0.015em;
   text-wrap: balance;
   max-width: none;
   margin: 0;
   color: var(--cream);
 }
-.hero__panel .lede { color: color-mix(in oklab, var(--cream) 88%, transparent); margin-top: 1.5rem; }
+.hero__panel .lede {
+  font-size: var(--step-0);
+  line-height: 1.55;
+  color: color-mix(in oklab, var(--cream) 88%, transparent);
+  margin-top: 1.25rem;
+}
 .hero__actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-top: 2.3rem; }
 
 .hero__body > .hero__dots {
