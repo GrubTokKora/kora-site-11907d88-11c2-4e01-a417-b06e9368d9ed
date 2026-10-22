@@ -1,8 +1,45 @@
 # Marchant Farm
-A private 1750 farm estate on more than 50 acres in Redding, Connecticut — weddings, corporate retreats, private events, equestrian programs, and a daily farm stand.
-Address: 55 Chestnut Woods Rd, Redding, CT 06896, USA
-Phone: (917) 376-2008
-Email: marchantfarm@gmail.com
-Web: https://marchantfarm.com/
-Pages: Home, Venue, Weddings, Corporate Retreats, Private Events, Nonprofit Fundraisers, Photo & Film, Riding Lessons, Boarding, Horse Shows, Farmers Market, Farm Products, Events Calendar, Stay, About, Reviews, Contact, Blog
-Brand: primary #47704C, secondary #57290C, accent #B8DDE3
+
+> Marchant Farm is a private farm estate located at 55 Chestnut Woods Rd in Redding, CT, offering a venue for unforgettable gatherings. The farm also provides a selection of local agricultural goods and supplies.
+
+## Services
+### Farmer's Market
+- Honey — $14.00
+- Eggs — $5.00
+- Vegetables
+- Seasonal Fruits
+
+### Firewood
+- Firewood By The Bag — $10.00
+- Firewood By The Pallet
+
+### Offers
+- Marchant Farm Horse Show Series 2026
+- Yoga on the Farm
+
+### Signature
+- Honey
+- Eggs
+
+## Location & Contact
+- Address: 55 Chestnut Woods Rd, Redding, CT 06896, United States
+- Phone: +19173762008
+- Email: marchantfarm@gmail.com
+
+## Hours
+- Monday: 09:00-17:30
+- Tuesday: 09:00-17:30
+- Wednesday: 09:00-17:30
+- Thursday: 09:00-17:30
+- Friday: 09:00-17:30
+- Saturday: 09:00-17:30
+- Sunday: 09:00-17:30
+
+## Action Links
+- [Reserve a Table](https://marchantfarm.com/venue-inquiry.html)
+- [Order Online](https://www.airbnb.com/rooms/690362922059052423)
+- [Stay at the Farm](https://marchantfarm.com/stay.html)
+
+## Social
+- [Instagram](https://www.instagram.com/marchantfarmllc/)
+- [Facebook](https://www.facebook.com/MarchantFarm/)
