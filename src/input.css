@@ -17,10 +17,11 @@
   --color-brand-muted: #7c857e;
   --color-brand-soft: #f1ece1;
   --color-brand-border: rgba(71, 112, 76, 0.28);
-  --font-brand: "Libre Caslon Display", "Libre Caslon Text", Georgia, serif;
-  --font-heading: "Libre Caslon Display", "Libre Caslon Text", Georgia, serif;
-  --font-body: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-nav: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-brand: var(--font-heading);
+  --font-heading: var(--kora-font-heading, "Libre Caslon Display"), "Libre Caslon Text", Georgia, serif;
+  --font-body: var(--kora-font-body, Inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-accent: var(--kora-font-accent, var(--font-heading)), var(--font-heading);
+  --font-nav: var(--font-body);
   --shadow-plate: 0 1px 2px #1e2a210a, 0 18px 44px -22px #1e2a2147;
   --shadow-lift: 0 2px 4px #1e2a210d, 0 30px 60px -26px #1e2a2157;
 }
@@ -43,12 +44,15 @@
     --color-brand-muted: #7c857e;
     --color-brand-soft: #f1ece1;
     --color-brand-border: rgba(71, 112, 76, 0.28);
-    --font-brand: "Libre Caslon Display", "Libre Caslon Text", Georgia, serif;
-    --font-heading: "Libre Caslon Display", "Libre Caslon Text", Georgia, serif;
-    --font-body: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-    --font-nav: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-brand: var(--font-heading);
+    --font-heading: var(--kora-font-heading, "Libre Caslon Display"), "Libre Caslon Text", Georgia, serif;
+    --font-body: var(--kora-font-body, Inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-nav: var(--font-body);
     --shadow-plate: 0 1px 2px #1e2a210a, 0 18px 44px -22px #1e2a2147;
     --shadow-lift: 0 2px 4px #1e2a210d, 0 30px 60px -26px #1e2a2157;
   }
 }
 /* KORA_BRAND_BASE_END */
+
+/* Kora fonts: this site's own Google link never asked for optical sizing (Inter), so keep the look it was approved with. */
+@layer base { html { font-optical-sizing: none; } }
